@@ -1,0 +1,17 @@
+[gd_scene format=3 uid="uid://b17x2dlsv73fw"]
+
+[ext_resource type="Texture2D" uid="uid://cy8hfqhg83l5k" path="res://sprites/play.png" id="1_wtcfe"]
+
+[node name="Node2D" type="Node2D" unique_id=1344739429]
+
+[node name="Play" type="Sprite2D" parent="." unique_id=1425958576]
+position = Vector2(348, 723)
+scale = Vector2(5, 5)
+texture = ExtResource("1_wtcfe")
+
+[node name="Button_play" type="Button" parent="." unique_id=815611226]
+offset_left = 188.0
+offset_top = 658.0
+offset_right = 508.0
+offset_bottom = 788.0
+flat = true
