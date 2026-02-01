@@ -1,0 +1,27 @@
+[gd_scene format=3 uid="uid://b17x2dlsv73fw"]
+
+[ext_resource type="Texture2D" uid="uid://cy8hfqhg83l5k" path="res://sprites/play.png" id="1_wtcfe"]
+[ext_resource type="Script" uid="uid://c50x7ft7um0pe" path="res://button_play.gd" id="2_0e48y"]
+[ext_resource type="Texture2D" uid="uid://b87miy231woyk" path="res://sprites/logo-nt.png" id="3_epypp"]
+
+[node name="Node2D" type="Node2D" unique_id=1344739429]
+
+[node name="Play" type="Sprite2D" parent="." unique_id=1425958576]
+position = Vector2(348, 678)
+scale = Vector2(5, 5)
+texture = ExtResource("1_wtcfe")
+
+[node name="Button_play" type="Button" parent="." unique_id=815611226]
+offset_left = 188.0
+offset_top = 613.0
+offset_right = 508.0
+offset_bottom = 743.0
+flat = true
+script = ExtResource("2_0e48y")
+
+[node name="LogoNt" type="Sprite2D" parent="." unique_id=1458152874]
+position = Vector2(418.99994, 177)
+scale = Vector2(6.7734375, 8.96875)
+texture = ExtResource("3_epypp")
+
+[connection signal="button_up" from="Button_play" to="Button_play" method="_on_button_up"]

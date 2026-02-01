@@ -1,0 +1,76 @@
+[gd_scene format=3 uid="uid://jq3r3vsiy63h"]
+
+[ext_resource type="FontFile" uid="uid://ca1rgdfx6iqgl" path="res://Cairopixel-G3DeP.ttf" id="1_0ix5k"]
+[ext_resource type="Texture2D" uid="uid://b3h8ionnx3wl4" path="res://sprites/newotm.png" id="1_bjqld"]
+[ext_resource type="Texture2D" uid="uid://dlggs4q7fs8lr" path="res://sprites/name.png" id="2_bei87"]
+[ext_resource type="Script" uid="uid://c28c3osde8h35" path="res://newotm.gd" id="3_haa71"]
+[ext_resource type="Texture2D" uid="uid://l0vs3g7iwf14" path="res://sprites/grab.png" id="5_l87qa"]
+[ext_resource type="Texture2D" uid="uid://dkrx8ouhf5i7a" path="res://sprites/Sprite-0002.png" id="6_52piu"]
+[ext_resource type="Texture2D" uid="uid://cxu8rfvao6u7u" path="res://sprites/regime.png" id="7_l8fye"]
+[ext_resource type="Texture2D" uid="uid://cy8hfqhg83l5k" path="res://sprites/play.png" id="8_15gtp"]
+[ext_resource type="Script" uid="uid://b7c4gra6fi5fx" path="res://create_save.gd" id="9_l8fye"]
+
+[node name="Node2D" type="Node2D" unique_id=195445293]
+
+[node name="LineEdit" type="LineEdit" parent="." unique_id=589016568]
+light_mask = 0
+offset_left = 36.0
+offset_top = 197.0
+offset_right = 678.0
+offset_bottom = 250.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_colors/font_placeholder_color = Color(0, 0, 0, 0.6)
+theme_override_colors/caret_color = Color(0.9490196, 0.9490196, 0.9490196, 0)
+theme_override_fonts/font = ExtResource("1_0ix5k")
+theme_override_font_sizes/font_size = 47
+placeholder_text = "ООО тмыв денег"
+max_length = 20
+flat = true
+
+[node name="Newotm" type="Sprite2D" parent="." unique_id=1304546990]
+position = Vector2(356, 115.000046)
+scale = Vector2(5, 5)
+texture = ExtResource("1_bjqld")
+script = ExtResource("3_haa71")
+
+[node name="Name" type="Sprite2D" parent="." unique_id=1313681301]
+position = Vector2(160, 308)
+scale = Vector2(2, 2)
+texture = ExtResource("2_bei87")
+
+[node name="Grab" type="Sprite2D" parent="." unique_id=23161451]
+position = Vector2(227, 725)
+scale = Vector2(3, 3)
+texture = ExtResource("5_l87qa")
+
+[node name="CheckBox" type="CheckBox" parent="." unique_id=913556311]
+offset_left = 429.0
+offset_top = 678.0
+offset_right = 453.0
+offset_bottom = 702.0
+scale = Vector2(4, 4)
+disabled = true
+button_pressed = true
+
+[node name="Sprite0002" type="Sprite2D" parent="." unique_id=1059275364]
+position = Vector2(302, 302)
+scale = Vector2(2, 2)
+texture = ExtResource("6_52piu")
+
+[node name="Regime" type="Sprite2D" parent="." unique_id=666920806]
+position = Vector2(354.00003, 541)
+scale = Vector2(4.99, 4.99)
+texture = ExtResource("7_l8fye")
+
+[node name="Play" type="Sprite2D" parent="." unique_id=1538124867]
+position = Vector2(351, 1182)
+scale = Vector2(5, 5)
+texture = ExtResource("8_15gtp")
+
+[node name="create_save" type="Button" parent="." unique_id=349145985]
+offset_left = 181.99997
+offset_top = 1089.9999
+offset_right = 531.0
+offset_bottom = 1259.0
+flat = true
+script = ExtResource("9_l8fye")
