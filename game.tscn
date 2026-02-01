@@ -1,0 +1,40 @@
+[gd_scene format=3 uid="uid://3kv6a3lpgk55"]
+
+[ext_resource type="Texture2D" uid="uid://dxqkkxfbohsll" path="res://sprites/worker.png" id="1_80nbo"]
+
+[node name="Node2D" type="Node2D" unique_id=1036539810]
+
+[node name="Worker1" type="Sprite2D" parent="." unique_id=1614527189]
+position = Vector2(100.000015, 80)
+scale = Vector2(20, 20)
+texture = ExtResource("1_80nbo")
+
+[node name="Worker2" type="Sprite2D" parent="." unique_id=1446915687]
+visible = false
+position = Vector2(619.99994, 80)
+scale = Vector2(20, 20)
+texture = ExtResource("1_80nbo")
+
+[node name="Worker3" type="Sprite2D" parent="." unique_id=491947044]
+visible = false
+position = Vector2(620, 399.99997)
+scale = Vector2(20, 20)
+texture = ExtResource("1_80nbo")
+
+[node name="Worker4" type="Sprite2D" parent="." unique_id=580647948]
+visible = false
+position = Vector2(100.00006, 399.99997)
+scale = Vector2(20, 20)
+texture = ExtResource("1_80nbo")
+
+[node name="Worker5" type="Sprite2D" parent="." unique_id=161643187]
+visible = false
+position = Vector2(620, 719.99994)
+scale = Vector2(20, 20)
+texture = ExtResource("1_80nbo")
+
+[node name="Worker6" type="Sprite2D" parent="." unique_id=2042798997]
+visible = false
+position = Vector2(100, 720.00006)
+scale = Vector2(20, 20)
+texture = ExtResource("1_80nbo")
