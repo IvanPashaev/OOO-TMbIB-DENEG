@@ -9,6 +9,8 @@
 [ext_resource type="Texture2D" uid="uid://cxu8rfvao6u7u" path="res://sprites/regime.png" id="7_l8fye"]
 [ext_resource type="Texture2D" uid="uid://cy8hfqhg83l5k" path="res://sprites/play.png" id="8_15gtp"]
 [ext_resource type="Script" uid="uid://b7c4gra6fi5fx" path="res://create_save.gd" id="9_l8fye"]
+[ext_resource type="Texture2D" uid="uid://drmg6m8xn0u0f" path="res://sprites/gun.png" id="10_15gtp"]
+[ext_resource type="Script" uid="uid://bpw2ck5hy77pt" path="res://gun_cs.gd" id="11_8wlgo"]
 
 [node name="Node2D" type="Node2D" unique_id=195445293]
 
@@ -39,15 +41,15 @@ scale = Vector2(2, 2)
 texture = ExtResource("2_bei87")
 
 [node name="Grab" type="Sprite2D" parent="." unique_id=23161451]
-position = Vector2(227, 725)
+position = Vector2(345, 747)
 scale = Vector2(3, 3)
 texture = ExtResource("5_l87qa")
 
 [node name="CheckBox" type="CheckBox" parent="." unique_id=913556311]
-offset_left = 429.0
-offset_top = 678.0
-offset_right = 453.0
-offset_bottom = 702.0
+offset_left = 547.0
+offset_top = 700.0
+offset_right = 571.0
+offset_bottom = 724.0
 scale = Vector2(4, 4)
 disabled = true
 button_pressed = true
@@ -74,3 +76,9 @@ offset_right = 531.0
 offset_bottom = 1259.0
 flat = true
 script = ExtResource("9_l8fye")
+
+[node name="Gun" type="Sprite2D" parent="." unique_id=236039677]
+position = Vector2(111, 744)
+scale = Vector2(7, 7)
+texture = ExtResource("10_15gtp")
+script = ExtResource("11_8wlgo")
