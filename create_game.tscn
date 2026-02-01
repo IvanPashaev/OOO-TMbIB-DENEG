@@ -3,14 +3,14 @@
 [ext_resource type="FontFile" uid="uid://ca1rgdfx6iqgl" path="res://Cairopixel-G3DeP.ttf" id="1_0ix5k"]
 [ext_resource type="Texture2D" uid="uid://b3h8ionnx3wl4" path="res://sprites/newotm.png" id="1_bjqld"]
 [ext_resource type="Texture2D" uid="uid://dlggs4q7fs8lr" path="res://sprites/name.png" id="2_bei87"]
-[ext_resource type="Script" uid="uid://c28c3osde8h35" path="res://newotm.gd" id="3_haa71"]
+[ext_resource type="Script" uid="uid://c28c3osde8h35" path="res://scripts/newotm.gd" id="3_haa71"]
 [ext_resource type="Texture2D" uid="uid://l0vs3g7iwf14" path="res://sprites/grab.png" id="5_l87qa"]
 [ext_resource type="Texture2D" uid="uid://dkrx8ouhf5i7a" path="res://sprites/Sprite-0002.png" id="6_52piu"]
 [ext_resource type="Texture2D" uid="uid://cxu8rfvao6u7u" path="res://sprites/regime.png" id="7_l8fye"]
 [ext_resource type="Texture2D" uid="uid://cy8hfqhg83l5k" path="res://sprites/play.png" id="8_15gtp"]
-[ext_resource type="Script" uid="uid://b7c4gra6fi5fx" path="res://create_save.gd" id="9_l8fye"]
+[ext_resource type="Script" uid="uid://b7c4gra6fi5fx" path="res://scripts/create_save.gd" id="9_l8fye"]
 [ext_resource type="Texture2D" uid="uid://drmg6m8xn0u0f" path="res://sprites/gun.png" id="10_15gtp"]
-[ext_resource type="Script" uid="uid://bpw2ck5hy77pt" path="res://gun_cs.gd" id="11_8wlgo"]
+[ext_resource type="Script" uid="uid://bpw2ck5hy77pt" path="res://scripts/gun_cs.gd" id="11_8wlgo"]
 
 [node name="Node2D" type="Node2D" unique_id=195445293]
 
