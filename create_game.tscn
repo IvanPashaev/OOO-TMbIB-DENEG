@@ -87,3 +87,5 @@ position = Vector2(111, 744)
 scale = Vector2(7, 7)
 texture = ExtResource("10_15gtp")
 script = ExtResource("11_8wlgo")
+
+[connection signal="button_up" from="create_save" to="create_save" method="_on_button_up"]

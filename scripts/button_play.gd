@@ -10,7 +10,7 @@ func _ready() -> void:
 func _process(delta: float) -> void:
 	pass
 
-var test = true
+var test = false
 func _on_button_up() -> void:
 	print("play!")
 	
