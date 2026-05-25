@@ -1,47 +1,15 @@
 [gd_scene format=3 uid="uid://3kv6a3lpgk55"]
 
-[ext_resource type="Texture2D" uid="uid://dxqkkxfbohsll" path="res://sprites/worker.png" id="1_80nbo"]
-[ext_resource type="Texture2D" uid="uid://hxqv37wp11hq" path="res://sprites/tab.png" id="2_e2o6t"]
+[ext_resource type="Script" uid="uid://byt7cj42imhlt" path="res://scripts/game.gd" id="1_80nbo"]
+[ext_resource type="FontFile" uid="uid://ca1rgdfx6iqgl" path="res://Cairopixel-G3DeP.ttf" id="2_e2o6t"]
 
-[node name="Node2D" type="Node2D" unique_id=1036539810]
+[node name="Node2D" type="Node2D" unique_id=82622752]
+script = ExtResource("1_80nbo")
 
-[node name="Worker1" type="Sprite2D" parent="." unique_id=1614527189]
-visible = false
-position = Vector2(100.000015, 80)
-scale = Vector2(20, 20)
-texture = ExtResource("1_80nbo")
-
-[node name="Worker2" type="Sprite2D" parent="." unique_id=1446915687]
-visible = false
-position = Vector2(619.99994, 80)
-scale = Vector2(20, 20)
-texture = ExtResource("1_80nbo")
-
-[node name="Worker3" type="Sprite2D" parent="." unique_id=491947044]
-visible = false
-position = Vector2(620, 399.99997)
-scale = Vector2(20, 20)
-texture = ExtResource("1_80nbo")
-
-[node name="Worker4" type="Sprite2D" parent="." unique_id=580647948]
-visible = false
-position = Vector2(100.00006, 399.99997)
-scale = Vector2(20, 20)
-texture = ExtResource("1_80nbo")
-
-[node name="Worker5" type="Sprite2D" parent="." unique_id=161643187]
-visible = false
-position = Vector2(620, 719.99994)
-scale = Vector2(20, 20)
-texture = ExtResource("1_80nbo")
-
-[node name="Worker6" type="Sprite2D" parent="." unique_id=2042798997]
-visible = false
-position = Vector2(100, 720.00006)
-scale = Vector2(20, 20)
-texture = ExtResource("1_80nbo")
-
-[node name="Tab" type="Sprite2D" parent="." unique_id=441224818]
-position = Vector2(359.99997, 1124)
-scale = Vector2(5.6249995, 10)
-texture = ExtResource("2_e2o6t")
+[node name="comp_name" type="Label" parent="." unique_id=941370572]
+offset_top = 33.0
+offset_right = 654.0
+offset_bottom = 125.0
+theme_override_fonts/font = ExtResource("2_e2o6t")
+theme_override_font_sizes/font_size = 97
+text = "ЩЩЩ тмыв денег"
