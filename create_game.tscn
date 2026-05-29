@@ -51,7 +51,7 @@ position = Vector2(345, 747)
 scale = Vector2(3, 3)
 texture = ExtResource("5_l87qa")
 
-[node name="CheckBox" type="CheckBox" parent="." unique_id=913556311]
+[node name="robber_checkbox" type="CheckBox" parent="." unique_id=913556311]
 offset_left = 547.0
 offset_top = 700.0
 offset_right = 571.0
