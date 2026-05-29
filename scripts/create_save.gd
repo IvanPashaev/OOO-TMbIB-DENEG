@@ -10,8 +10,8 @@ func _ready() -> void:
 func _process(delta: float) -> void:
 	pass
 
-'''gamemodes
-
+'''
+gamemodes:
 -Robber = 0
 -Gubernator = 1
 
