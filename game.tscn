@@ -4,6 +4,7 @@
 [ext_resource type="FontFile" uid="uid://ca1rgdfx6iqgl" path="res://Cairopixel-G3DeP.ttf" id="2_e2o6t"]
 [ext_resource type="Texture2D" uid="uid://ct0dwai553r6a" path="res://sprites/ui/workers_ui.png" id="3_feb5d"]
 [ext_resource type="Texture2D" uid="uid://bskm6kyt157ob" path="res://sprites/workers/worker_autoservice.png" id="4_fc0e3"]
+[ext_resource type="Script" uid="uid://bim8btxw20rkc" path="res://scripts/worker_autoservice_testtween.gd" id="5_7jktm"]
 
 [node name="Node2D" type="Node2D" unique_id=82622752]
 script = ExtResource("1_80nbo")
@@ -24,6 +25,21 @@ scale = Vector2(5, 5)
 texture = ExtResource("3_feb5d")
 
 [node name="WorkerAutoservice" type="Sprite2D" parent="." unique_id=1313947172]
-position = Vector2(425, 1026)
+position = Vector2(498, 617)
 scale = Vector2(8, 8)
 texture = ExtResource("4_fc0e3")
+script = ExtResource("5_7jktm")
+
+[node name="money_ui" type="Label" parent="." unique_id=428313618]
+offset_left = 9.0
+offset_top = 119.0
+offset_right = 76.0
+offset_bottom = 264.0
+theme_override_colors/font_color = Color(0, 0.8980392, 0, 1)
+theme_override_colors/font_outline_color = Color(4.5002253e-06, 0.6059044, 0, 1)
+theme_override_constants/line_spacing = 3
+theme_override_constants/paragraph_spacing = 0
+theme_override_constants/outline_size = 24
+theme_override_fonts/font = ExtResource("2_e2o6t")
+theme_override_font_sizes/font_size = 154
+text = "₿:"
